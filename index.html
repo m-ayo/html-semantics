@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html semantic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+    <h1>Introduction to Semantic Elements in HTML5</h1>
+    <hr size="3" noshade="" color="red">
+    <!-- linking different pages in the index entry file -->
+    <header>
+        <nav>
+            <ul>
+             <a href="Home.html" target="_blank"><li>Home page</li></a>
+              <a href="About.html" target="_blank"><li>About us</li></a>
+              <a href="programs.html" target="_blank"><li>Our programs</li></a>
+              <a href="Contact.html" target="_blank"><li>Contact us</li></a>  
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <h2>Femedevs program</h2>
+        <p>This is the program that equips woman with digital skills</p>
+    </article>
+    <section>
+        <h1>Hypertext markup language HTML</h1>
+        <p>>HTML is the standard markup language for creating web pages and web applications.<br> Browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages.<br> HTML describes the structure of a web page semantically and originally included cues for the appearance of the document</p>
+    </section>
+    <hr>
+    <!-- using aside element -->
+    <p>>I like watching Games and Movies</p>
+    <aside>
+       <h3>Games of Thrones</h3>
+       <p>>Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss.<br> It is an adaptation of A Song of Ice and Fire, George R. R. Martin's series of fantasy novels</p>
+    </aside>
+    <hr size="3"noshade="" color="green">
+    <!-- using <figure></figure> in html -->
+    <p>A cute kitten</p>
+    <figure>
+        <img src="https://images.pexels.com/photos/1661179/pexels-photo-1661179.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+        <figcaption>A cute kitten</figcaption>
+    </figure>
+
+        <!-- creating footer using html -->
+        <hr>
+        <!-- using<address></address> in html -->
+        <address>
+            Author:Minayo Mary
+            <a href="minayomary7@gmail.com"></a>
+        </address>
+        
+        <!-- creating forms in html -->
+        
+
+        <footer>
+            <p>
+                femidevs&copy;2022
+            </p>
+            <ul>
+                <a href="https://theborderhub.org/"target="_blank"><li>BORDERHUB</li></a>
+                <a href="https://lakehub.co.ke/"target="_blank"><li>LAKEHUB</li></a>
+            </ul>
+        </footer>
+        <!-- creating forms in html -->
+        <form action="" method="get" class="form-example">
+
+            <div class="form-example">
+                <label for="name">Enter your name:</label>
+                <input type="text" name="name" id="email" required placeholder="please write your name">
+
+
+            </div>
+            <div class="form-example">
+                <label for="email">Enter your email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-example">
+                <input type="submit" value="Subscribe!">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
